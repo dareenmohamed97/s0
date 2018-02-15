@@ -151,6 +151,21 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-MacBooks-MacBook-Air:s0 apple$ 
+MacBooks-MacBook-Air:s0 apple$ git add AllMyCommands.txt
+MacBooks-MacBook-Air:s0 apple$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   AllMyCommands.txt
+
+MacBooks-MacBook-Air:s0 apple$ git commit -m "the AllMyCommands file is added to the repo including all commands"
+[master ffc2b2c] the AllMyCommands file is added to the repo including all commands
+ 1 file changed, 156 insertions(+)
+ create mode 100644 AllMyCommands.txt
+
 
 
